@@ -23,6 +23,10 @@
     display: none;
 }
 
+.menu>img {
+    width: 4.25em;
+}
+
 @media (max-width: 750px) {
     .btn-menu {
         display: block;
@@ -41,5 +45,11 @@
         display: block;
         position: absolute;
         background-color: rgb(34, 32, 32);
+        right: 1px;
+    }
+
+    .menu {
+        justify-content: space-between;
+        
     }
 }
