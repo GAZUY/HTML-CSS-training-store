@@ -52,4 +52,8 @@
         justify-content: space-between;
         
     }
+
+    .btn-menu:hover {
+        background-color: rgb(70, 66, 66);
+    }
 }
