@@ -1,0 +1,45 @@
+
+.menu {
+    display: flex;
+    background-color: rgb(34, 32, 32);
+}
+
+.menu-list {
+    display: flex;
+}
+
+.menu-list a {
+    display: block;
+    padding: 1em;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.menu-list a:hover {
+    background-color: rgb(70, 66, 66);
+}
+
+.btn-menu {
+    display: none;
+}
+
+@media (max-width: 750px) {
+    .btn-menu {
+        display: block;
+        font-size: 2em;
+        padding-inline: 12px;
+        padding-bottom: 3px;
+        border: none;
+        background-color: rgb(34, 32, 32);
+        color: aliceblue;
+        cursor: pointer;
+    }
+    .menu-list {
+        display: none;
+    }
+    .drop:hover .menu-list {
+        display: block;
+        position: absolute;
+        background-color: rgb(34, 32, 32);
+    }
+}
